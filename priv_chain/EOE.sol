@@ -34,7 +34,7 @@ contract SafeMath {
     }
   }
 }
-contract BNB is SafeMath{
+contract EOE is SafeMath{
     string public name;
     string public symbol;
     uint8 public decimals;
@@ -59,7 +59,7 @@ contract BNB is SafeMath{
     event Unfreeze(address indexed from, uint256 value);
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
-    function BNB(
+    function EOE(
         uint256 initialSupply,
         string tokenName,
         uint8 decimalUnits,
