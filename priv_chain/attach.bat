@@ -1,1 +1,2 @@
-geth attach http://localhost:8545
+set ETHPATH=ethbin
+%ETHPATH%\geth geth attach http://localhost:8545
