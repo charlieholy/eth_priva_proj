@@ -1,2 +1,2 @@
-set ETHPATH=..\ethbin
-%ETHPATH%geth  --datadir "%cd%\chain" init piccgenesis.json
+set ETHPATH=ethbin
+%ETHPATH%\geth  --datadir "%cd%\chain" init piccgenesis.json
