@@ -1,0 +1,1 @@
+geth  --datadir "%cd%\chain" init piccgenesis.json 
